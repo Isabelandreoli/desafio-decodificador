@@ -1,0 +1,39 @@
+footer {
+  max-width: 1600px;
+  background-color: #0a3871;
+  margin-top: 42px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 32px;
+}
+
+.footer h3 {
+  color: #f3f5fc;
+  text-transform: uppercase;
+  font-size: 32px;
+}
+
+.footer span {
+  color: #6699D9;
+  grid-column: 1;
+}
+
+.pessoal {
+  padding-left: 108px;
+}
+
+.redes {
+  color: #f3f5fc;
+  display: flex;
+  gap: 80px;
+  font-size: 24px;
+  align-items: center;
+}
+
+.redes img {
+  width: 26px;
+  fill: #f3f5fc;
+}

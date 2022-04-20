@@ -1,0 +1,90 @@
+.box-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  max-width: 1600px;
+  gap: 40px;
+  width: 100%;
+  margin-left: 120px;
+}
+
+.entrada {
+  font-size: 32px;
+  width: 1000px;
+  height: 400px;
+  color: #0a3871;
+  font-size: 30px;
+  border: none;
+  background-color: #f3f5fc;
+}
+
+#texto::placeholder {
+  color: #0a3871;
+  font-size: 32px;
+}
+
+.box-saida {
+  margin-top: -60px;
+  max-width: 250px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 32px;
+  padding: 190px 12px;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+}
+
+.box-saida h2 {
+  font-size: 22px;
+  color: #343a40;
+}
+
+.box-saida p {
+  font-size: 14px;
+  color: #495057;
+}
+
+.img {
+  object-fit: contain;
+  width: 250px;
+}
+
+.envio {
+  margin-left: 140px;
+  margin-top: -200px;
+}
+
+.icone {
+  position: absolute;
+  width: 16px;
+}
+
+.aviso {
+  font-size: 12px;
+  color: #495057;
+  position: relative;
+  padding: 0 0 16px 24px;
+}
+
+.botao {
+  display: flex;
+  gap: 24px;
+}
+
+.cripto {
+  font-size: 16px;
+  color: #f3f5fc;
+  background-color: #0a3871;
+  width: 328px;
+  height: 67px;
+  border-radius: 24px;
+  border: none;
+}
+
+.descripto {
+  font-size: 16px;
+  color: #0a3871;
+  background-color: #d8dfe8;
+  width: 328px;
+  height: 67px;
+  border-radius: 24px;
+  border: 1px solid #0a3871;
+}
