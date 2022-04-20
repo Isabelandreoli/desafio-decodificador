@@ -1,5 +1,5 @@
 footer {
-  max-width: 1600px;
+  /* max-width: 100%; */
   background-color: #0a3871;
   margin-top: 42px;
 }
@@ -8,6 +8,8 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 32px;
+  /* margin: 0 auto; */
+  padding: 28px 120px;
 }
 
 .footer h3 {
@@ -19,10 +21,6 @@ footer {
 .footer span {
   color: #6699D9;
   grid-column: 1;
-}
-
-.pessoal {
-  padding-left: 108px;
 }
 
 .redes {
