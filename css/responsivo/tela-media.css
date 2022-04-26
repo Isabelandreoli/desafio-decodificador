@@ -1,0 +1,46 @@
+@media (max-width: 800px) {
+  .box-container {
+    display: block;
+    height: 350px;
+  }
+  .img {
+    display: none;
+  }
+  .box-entrada {
+    margin-top: 40px;
+    width: 700px;
+    height: 350px;
+    padding: 0;
+  }
+  .entrada {
+    width: 100%;
+    height: 100%;
+    margin-left: 40px;
+  }
+  .envio {
+    margin-top: auto;
+  }
+  .box-saida {
+    background-color: #fff;
+    margin-top: 140px;
+    max-width: 100%;
+    max-height: auto;
+    padding: 24px;
+  }
+  .box-saida h2 {
+    margin: 0;
+  }
+  .envio{
+    margin-top: 20px;
+    margin-left: 0;
+  }
+  .cripto,
+  .descripto {
+    font-size: 14px;
+    width: 320px;
+    height: 58px;
+  }
+  .footer {
+    margin-top: 300px;
+  }
+}

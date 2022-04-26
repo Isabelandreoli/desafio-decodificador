@@ -1,0 +1,13 @@
+@media (max-width: 1300px){
+  .box-saida {
+    max-width: 200px;
+  }
+  .img {
+    width: 200px;
+  }
+  .footer {
+    display: flex;
+    gap: 40px;
+  }
+}
+

@@ -7,8 +7,6 @@ footer {
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 32px;
-  /* margin: 0 auto; */
   padding: 28px 120px;
 }
 

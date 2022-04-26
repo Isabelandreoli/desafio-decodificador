@@ -2,3 +2,7 @@
 @import "./header.css";
 @import "./conteudo.css";
 @import "./footer.css";
+
+@import "./responsivo/tela-grande.css";
+@import "./responsivo/tela-media.css";
+@import "./responsivo/tela-pequena.css";
